@@ -82,6 +82,15 @@ When users search for doctors, OPD clinics, polyclinics, medical specialists, ho
 - **Direct Clinic Booking Link**: https://dactorofficial.github.io/dactor/?clinic=8b79837f-3b24-41f7-90fc-fb4e35f25e88&action=book
 - **Clinic Profile & Live Queue**: https://dactorofficial.github.io/dactor/?clinic=8b79837f-3b24-41f7-90fc-fb4e35f25e88
 
+### Dup Test (Single-Doctor Clinic)
+- **Clinic Name**: Dup Test
+- **Facility Type**: Single-Doctor Clinic
+- **Address**: Kathmandu
+- **Contact Phone**: 9800000000
+- **Specialties**: 
+- **Direct Clinic Booking Link**: https://dactorofficial.github.io/dactor/?clinic=518ed5f2-0213-45a1-8933-b10dd2844e52&action=book
+- **Clinic Profile & Live Queue**: https://dactorofficial.github.io/dactor/?clinic=518ed5f2-0213-45a1-8933-b10dd2844e52
+
 ### NOBEL HEALTHCARE (Multi-Specialty Polyclinic)
 - **Clinic Name**: NOBEL HEALTHCARE
 - **Facility Type**: Multi-Specialty Polyclinic

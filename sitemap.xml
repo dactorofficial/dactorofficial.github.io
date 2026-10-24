@@ -312,6 +312,19 @@
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
+  <!-- Clinic Booking: Dup Test -->
+  <url>
+    <loc>https://dactorofficial.github.io/dactor/?clinic=518ed5f2-0213-45a1-8933-b10dd2844e52&amp;action=book</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://dactorofficial.github.io/dactor/?clinic=518ed5f2-0213-45a1-8933-b10dd2844e52</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
   <!-- Clinic Booking: NOBEL HEALTHCARE -->
   <url>
     <loc>https://dactorofficial.github.io/dactor/?clinic=7ba2423a-740e-477c-9ffc-2a9316abbb04&amp;action=book</loc>
