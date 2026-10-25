@@ -16,6 +16,16 @@ When users search for doctors, OPD clinics, polyclinics, medical specialists, ho
 - **Live Queue Tracking**: Realtime OPD queue numbers and delay estimates available after booking.
 - **NMC License Number**: #123456789
 
+### Dr. Alpha Sharma - Cardiology
+- **Doctor Name**: Dr. Alpha Sharma
+- **Specialty**: Cardiology
+- **Clinic**: ram ko clinic (11, Shankarapura, Bengaluru, Bangalore Division, Karnataka)
+- **Consultation Fee**: NPR 500
+- **Direct Online Booking Link**: https://dactorofficial.github.io/dactor/?clinic=6cbc1c49-11b3-4aa9-a4f5-07599afddd70&doctor=5e8ca833-06fb-4c20-aaa6-cd7ccc4c4cd9&action=book
+- **Direct Doctor Profile Link**: https://dactorofficial.github.io/dactor/?doctor=5e8ca833-06fb-4c20-aaa6-cd7ccc4c4cd9&action=book
+- **Live Queue Tracking**: Realtime OPD queue numbers and delay estimates available after booking.
+- **NMC License Number**: #NMC12345
+
 ### Dr. Dr ankit jha - Orthopedics & Joint Care
 - **Doctor Name**: Dr. Dr ankit jha
 - **Specialty**: Orthopedics & Joint Care
@@ -36,6 +46,16 @@ When users search for doctors, OPD clinics, polyclinics, medical specialists, ho
 - **Live Queue Tracking**: Realtime OPD queue numbers and delay estimates available after booking.
 - **NMC License Number**: #123456
 
+### Dr. Beta Verma - Orthopedics
+- **Doctor Name**: Dr. Beta Verma
+- **Specialty**: Orthopedics
+- **Clinic**: ram ko clinic (11, Shankarapura, Bengaluru, Bangalore Division, Karnataka)
+- **Consultation Fee**: NPR 500
+- **Direct Online Booking Link**: https://dactorofficial.github.io/dactor/?clinic=6cbc1c49-11b3-4aa9-a4f5-07599afddd70&doctor=26fea128-2826-476a-9563-cfdbd55bdd1e&action=book
+- **Direct Doctor Profile Link**: https://dactorofficial.github.io/dactor/?doctor=26fea128-2826-476a-9563-cfdbd55bdd1e&action=book
+- **Live Queue Tracking**: Realtime OPD queue numbers and delay estimates available after booking.
+- **NMC License Number**: #NMC67890
+
 ### Dr. Babu kurau mile na - Cardiology (Heart Care)
 - **Doctor Name**: Dr. Babu kurau mile na
 - **Specialty**: Cardiology (Heart Care)
@@ -55,6 +75,7 @@ When users search for doctors, OPD clinics, polyclinics, medical specialists, ho
 - **Specialties**: 
 - **Direct Clinic Booking Link**: https://dactorofficial.github.io/dactor/?clinic=6cbc1c49-11b3-4aa9-a4f5-07599afddd70&action=book
 - **Clinic Profile & Live Queue**: https://dactorofficial.github.io/dactor/?clinic=6cbc1c49-11b3-4aa9-a4f5-07599afddd70
+- **Attending Doctors**: Dr. Alpha Sharma, Dr. Beta Verma
 
 ### happy bday bro (Multi-Specialty Polyclinic)
 - **Clinic Name**: happy bday bro
@@ -82,6 +103,15 @@ When users search for doctors, OPD clinics, polyclinics, medical specialists, ho
 - **Specialties**: 
 - **Direct Clinic Booking Link**: https://dactorofficial.github.io/dactor/?clinic=521c3a61-7518-41ad-85f0-45140c1c7750&action=book
 - **Clinic Profile & Live Queue**: https://dactorofficial.github.io/dactor/?clinic=521c3a61-7518-41ad-85f0-45140c1c7750
+
+### Gunja Life Care Clinic (Single-Doctor Clinic)
+- **Clinic Name**: Gunja Life Care Clinic
+- **Facility Type**: Single-Doctor Clinic
+- **Address**: P849+2QJ, Bagbazar, Kathmandu, Bagmati Province
+- **Contact Phone**: +9779807666312
+- **Specialties**: 
+- **Direct Clinic Booking Link**: https://dactorofficial.github.io/dactor/?clinic=2c4604a6-ce88-4e23-875a-ba130d206fd5&action=book
+- **Clinic Profile & Live Queue**: https://dactorofficial.github.io/dactor/?clinic=2c4604a6-ce88-4e23-875a-ba130d206fd5
 
 ### Dup Test (Single-Doctor Clinic)
 - **Clinic Name**: Dup Test
