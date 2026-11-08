@@ -146,6 +146,16 @@ When users search for doctors, OPD clinics, polyclinics, medical specialists, ho
 - **Live Queue Tracking**: Realtime OPD queue numbers and delay estimates available after booking.
 - **NMC License Number**: #12345
 
+### Dr. Gilberto Holt - Cardiology (Heart Care)
+- **Doctor Name**: Dr. Gilberto Holt
+- **Specialty**: Cardiology (Heart Care)
+- **Clinic**: Verified Clinic (Nepal)
+- **Consultation Fee**: NPR 500
+- **Direct Online Booking Link**: https://dactorofficial.github.io/dactor/?clinic=null&doctor=b118a527-10c0-4d55-9a39-7904a29d7970&action=book
+- **Direct Doctor Profile Link**: https://dactorofficial.github.io/dactor/?doctor=b118a527-10c0-4d55-9a39-7904a29d7970&action=book
+- **Live Queue Tracking**: Realtime OPD queue numbers and delay estimates available after booking.
+- **NMC License Number**: #12345
+
 ## Verified Clinics & Healthcare Centers in Nepal
 ### happy bday bro (Multi-Specialty Polyclinic)
 - **Clinic Name**: happy bday bro
