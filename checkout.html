@@ -280,14 +280,34 @@
       try {
         let json = null;
 
-        // 1. First try dedicated form payload provider
+        // 0. Primary: Fetch authoritative payment attempt payload directly from PostgreSQL RPC
         try {
-          const payloadUrl = `https://ojfoofojcpabqegxmsab.supabase.co/functions/v1/appointment-payment?action=get_form_payload&attempt_id=${encodeURIComponent(attemptId)}`;
-          const payloadRes = await fetch(payloadUrl, { headers: { 'Accept': 'application/json' } });
-          if (payloadRes.ok) {
-            json = await payloadRes.json();
+          const rpcRes = await fetch('https://ojfoofojcpabqegxmsab.supabase.co/rest/v1/rpc/get_payment_attempt_details', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qZm9vZm9qY3BhYnFlZ3htc2FiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAzNTM1MTgsImV4cCI6MjEwNTkyOTUxOH0.pH1yOGykaaQTzlQxeCvcQ78HQwxhTSi4yA8JmvT-Y9Y'
+            },
+            body: JSON.stringify({ p_attempt_id: attemptId })
+          });
+          if (rpcRes.ok) {
+            const rpcJson = await rpcRes.json();
+            if (rpcJson && rpcJson.fields && rpcJson.endpoint) {
+              json = rpcJson;
+            }
           }
         } catch (_) {}
+
+        // 1. Secondary: Fallback to dedicated form payload provider
+        if (!json || (!json.fields && !json.payment_url)) {
+          try {
+            const payloadUrl = `https://ojfoofojcpabqegxmsab.supabase.co/functions/v1/appointment-payment?action=get_form_payload&attempt_id=${encodeURIComponent(attemptId)}`;
+            const payloadRes = await fetch(payloadUrl, { headers: { 'Accept': 'application/json' } });
+            if (payloadRes.ok) {
+              json = await payloadRes.json();
+            }
+          } catch (_) {}
+        }
 
         // 2. Fallback to action=checkout with JSON format request
         if (!json || (!json.fields && !json.payment_url)) {
